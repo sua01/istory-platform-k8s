@@ -58,7 +58,7 @@ spec:
             failureThreshold: 3
             periodSeconds: 20
           ports:
-            - containerPort:  3306
+            - containerPort:  8080
               name: istory
       volumes:
         - name: application-config
